@@ -10,7 +10,6 @@ class Counter extends React.Component {
             e.preventDefault();
             let counter = this.counter++;
             this.setState({ counter });
-            // console.log('__STATE__', this.state);
         }
         
         handleDecrement = e => {
