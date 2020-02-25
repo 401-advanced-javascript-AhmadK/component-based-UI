@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import './app.scss';
 
@@ -14,7 +15,7 @@ class App extends React.Component {
         <Counter className='counter' />
         <Footer />
       </React.Fragment>
-    )
+    );
   }
 }
 
